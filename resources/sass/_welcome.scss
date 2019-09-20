@@ -1,0 +1,76 @@
+.welcome-option {
+  height:70px;
+  max-width: 540px;
+
+  img {
+    height:70px;
+    object-fit: cover;
+  }
+}
+.aiutarti, .alloggi {
+  color:#73B879;
+}
+.card-deck {
+  display:flex;
+}
+.card-apartment {
+  width:23rem;
+  height:20rem;
+  box-shadow: 1px 1px lightgrey;
+  color:black;
+
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+
+.welcome-image {
+  width:100vw;
+  height:600px;
+  background-image: url('https://www.thetimes.co.uk/expert-traveller/wp-content/uploads/2018/11/shutterstock_776445706-1-2200x880.jpg');
+}
+.py-4 {
+  padding-top: 0 !important;
+}
+
+@media screen and (max-width:320px) {
+  .card-apartment {
+    width:17rem;
+  }
+}
+@media screen and (width:375px) {
+  .card-apartment {
+    width:19rem;
+  }
+}
+
+@media screen and (max-width:576px){
+
+  .welcome-image, #categories {
+    display: none;
+  }
+  .single-apartment {
+    // flex:0;
+    color:#01BFFF;
+  }
+  .esplora, .aiutarti, .alloggi {
+    font-size: 180%;
+  }
+}
+
+@media screen and (max-width:767px){
+  .welcome-image, #categories {
+    display:none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #categories {
+    display:none;
+  }
+  .card-apartment {
+    width:18rem;
+  }
+}

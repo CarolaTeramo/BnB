@@ -1,0 +1,25 @@
+.opzioni-appartamento {
+  display:flex;
+  padding-left: 0;
+}
+.sponsorizza-appartamento {
+  background-color: $iconic-color;
+}
+
+@media screen and (max-width:767px) {
+  .opzioni-appartamento {
+    display:flex;
+    flex-direction: column;
+  }
+  .opzioni-appartamento {
+    margin-bottom: 10px;
+  }
+  .modifica-appartamento, .sponsorizza-appartamento, .elimina-inserzione {
+    height:50px;
+    font-size: 150%;
+    margin-bottom: 10px;
+  }
+  .info-appartamento {
+    font-size: 150%;
+  }
+}

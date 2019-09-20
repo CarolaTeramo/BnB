@@ -1,0 +1,32 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '_commons';
+
+@import '_nav';
+
+@import '_welcome';
+
+@import '_mymessages';
+
+@import '_register';
+
+@import '_login';
+
+@import '_profile';
+
+@import '_layouts';
+
+@import '_create';
+
+@import '_myapartments';
+
+@import '_apartmentdetail';
+
+@import '_searchpage';
